@@ -1,0 +1,17 @@
+<mod_replayset.xml>
+  <UNKNOWN> true  </UNKNOWN>
+  <RANDOM>  true  </RANDOM>
+  <TRAINING>   true  </TRAINING>
+  <CYBERSPORT> true  </CYBERSPORT>
+  <FALLOUT> true  </FALLOUT>
+  <EVENT_BATTLES> true  </EVENT_BATTLES>
+  <FALLOUT_CLASSIC>  true  </FALLOUT_CLASSIC>
+  <FALLOUT_MULTITEAM>   true  </FALLOUT_MULTITEAM>
+  <SORTIE_2>   true  </SORTIE_2>
+  <FORT_BATTLE_2> true  </FORT_BATTLE_2>
+  <RANKED>  true  </RANKED>
+  <EPIC_RANDOM>   true  </EPIC_RANDOM>
+  <EPIC_RANDOM_TRAINING>   true  </EPIC_RANDOM_TRAINING>
+  <EPIC_BATTLE>   true  </EPIC_BATTLE>
+  <EPIC_TRAINING> true  </EPIC_TRAINING>
+</mod_replayset.xml>
