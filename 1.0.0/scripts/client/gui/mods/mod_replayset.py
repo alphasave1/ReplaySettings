@@ -4,7 +4,7 @@ from gui.Scaleform.framework.entities.abstract.AbstractViewMeta import AbstractV
 from gui.app_loader import g_appLoader
 from gui.Scaleform.framework.entities.View import View
 from helpers import html
-from gui.Scaleform.framework.managers.loaders import ViewLoadParams
+from gui.Scaleform.framework.managers.loaders import SFViewLoadParams
 from gui.shared.utils.key_mapping import getBigworldNameFromKey
 from PlayerEvents import g_playerEvents
 import BattleReplay
@@ -17,7 +17,7 @@ savedValue = 0
 xmlRead = ResMgr.openSection('../mods/configs/ReplaySettings/mod_replayset.xml')
 
 def init():
-    g_modsListApi.addModification(id='ReplaySettings', name='Replay Settings', description='Set save replay on any battle type.', enabled=True, callback=lambda : g_appLoader.getDefLobbyApp().loadView(ViewLoadParams(_alias, None)), login=True, lobby=True, icon='gui/flash/replaysettings.jpg')
+    g_modsListApi.addModification(id='ReplaySettings', name='Replay Settings', description='Set save replay on any battle type.', enabled=True, callback=lambda : g_appLoader.getDefLobbyApp().loadView(SFViewLoadParams(_alias, None)), login=True, lobby=True, icon='gui/flash/replaysettings.jpg')
     g_playerEvents.onAvatarBecomePlayer += subscribe
     g_playerEvents.onAvatarBecomeNonPlayer += unsubscribe
     global savedValue
